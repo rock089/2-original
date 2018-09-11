@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  2-original-BT
+//
+//  Created by apple on 2018/9/11.
+//  Copyright © 2018年 apple. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+#import <AFNetworking.h>
+#import "sessionSignal.h"
+#import "UIImageView+WebCache.h"
+#import <MBProgressHUD+JDragon.h>
+#import "MJRefresh.h"
+
+#define MY_HOST_ADDRESS @"http://pay.csmall.com/sellerapi"
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
